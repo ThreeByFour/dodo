@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dodo/static/css/main.9dd17af1.css",
-    "main.js": "/dodo/static/js/main.737d3324.js",
+    "main.css": "/dodo/static/css/main.f86e08a5.css",
+    "main.js": "/dodo/static/js/main.10c995b9.js",
     "static/media/AvertaStd-Regular.ttf": "/dodo/static/media/AvertaStd-Regular.bff500d7e76a1dab42d1.ttf",
     "static/media/AvertaStd-Semibold.ttf": "/dodo/static/media/AvertaStd-Semibold.5ee418c0f1bf9fd58510.ttf",
     "static/media/AvertaStd-Black.ttf": "/dodo/static/media/AvertaStd-Black.20cb0a9fd909526a99a8.ttf",
     "index.html": "/dodo/index.html",
-    "main.9dd17af1.css.map": "/dodo/static/css/main.9dd17af1.css.map",
-    "main.737d3324.js.map": "/dodo/static/js/main.737d3324.js.map"
+    "main.f86e08a5.css.map": "/dodo/static/css/main.f86e08a5.css.map",
+    "main.10c995b9.js.map": "/dodo/static/js/main.10c995b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dd17af1.css",
-    "static/js/main.737d3324.js"
+    "static/css/main.f86e08a5.css",
+    "static/js/main.10c995b9.js"
   ]
 }
