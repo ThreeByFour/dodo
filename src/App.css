@@ -11,5 +11,27 @@
     margin: 0px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
+  @font-face {
+    font-family: 'Averta';
+    src: url('../public/assets/font/AvertaStd-Black.ttf') format('truetype');
+    font-weight: bold; /* Assuming 'Black' is equivalent to bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('../public/assets/font/AvertaStd-Regular.ttf') format('truetype');
+    font-weight: normal; /* Regular font weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('../public/assets/font/AvertaStd-Semibold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold is often around 600 weight */
+    font-style: normal;
+}

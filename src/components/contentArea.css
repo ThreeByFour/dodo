@@ -12,14 +12,25 @@
     z-index: 10;
     align-self: center;
   }
+
+  * {
+    font-family: 'Averta', sans-serif;
+    text-align: center
+  }
+
+  .text-logo {
+    width: 100%;
+    height: auto;
+  }
   
   .logo-space {
-    width: 100%; /* Take up full width of the parent */
-    height: 100px; /* Adjust as needed for your logo */
+    max-width: 30%; /* Take up full width of the parent */
+    max-height: 10%;
     display: flex;
     justify-content: center; /* Center logo horizontally */
     align-items: center; /* Center logo vertically */
-    margin-bottom: 20px; /* Space below the logo */
+    margin-bottom: 5%;
+    margin-top: 3vh;
   }
   
   .text-content {
