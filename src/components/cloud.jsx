@@ -1,7 +1,7 @@
 import React from 'react';
 import './cloud.css';
 
-const Cloud = ({ xPos, yPos, animationDuration, circleRadius, rectWidth, color }) => {
+const Cloud = ({ xPos, yPos, animationDuration, circleRadius, rectWidth, color, loop }) => {
   const circleStyle = {
     width: `${circleRadius * 2}px`, // Circle diameter
     height: `${circleRadius * 2}px`,
@@ -24,7 +24,7 @@ const Cloud = ({ xPos, yPos, animationDuration, circleRadius, rectWidth, color }
   };
 
   return (
-    <div className="cloud" style={cloudStyle}>
+    <div className={`cloud ${loop ? '' : 'cloud-non-looping'}`} style={cloudStyle}>
       <div className="circle" style={circleStyle} />
       <div className="rectangle" style={rectStyle} />
       <div className="circle" style={{...circleStyle, left:`${rectWidth-circleRadius}px`}} />

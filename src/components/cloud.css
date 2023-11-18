@@ -8,6 +8,10 @@
     animation-iteration-count: infinite;
     background-color: transparent; /* Ensure that parent has no background */
   }
+
+  .cloud .non-looping {
+    animation-iteration-count: 1;
+  }
   
   .circle {
     width: 100%; /* Relative to parent's height */
