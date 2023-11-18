@@ -1,0 +1,14 @@
+:root {
+  --track-length: 300vw;
+}
+
+
+.background {
+  background-color: #3aceea;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+}

@@ -1,0 +1,28 @@
+.content-area {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    width: 80%; /* 80% of the viewport width */
+    height: 100vh; /* Full viewport height */
+    margin: 0 auto; /* Center the div */
+    padding: 20px; /* Optional: for some internal spacing */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    align-self: center;
+  }
+  
+  .logo-space {
+    width: 100%; /* Take up full width of the parent */
+    height: 100px; /* Adjust as needed for your logo */
+    display: flex;
+    justify-content: center; /* Center logo horizontally */
+    align-items: center; /* Center logo vertically */
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+  .text-content {
+    /* Styles for your text content */
+  }
+  

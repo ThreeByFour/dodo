@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import './App.css';
-
+import Background from './components/background';
+import ContentArea from './components/contentArea';
 
 const App = () => {
     return (
@@ -18,7 +19,9 @@ const App = () => {
                     `}
                 </script>
             </Helmet>
-            <h1>Dodo webpage - under construction</h1>
+            <ContentArea />
+            <Background />
+            
         </div>
     );
 }
