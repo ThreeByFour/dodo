@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Website for Dodo puzzle game",
   "main": "App.js",
+  "homepage": "http://threebyfour.github.io/dodo",
   "scripts": {
     "start": "CI= NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "CI= NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
