@@ -24,7 +24,7 @@ const Cloud = ({ xPos, yPos, animationDuration, circleRadius, rectWidth, color, 
   };
 
   return (
-    <div className={`cloud ${loop ? '' : 'cloud-non-looping'}`} style={cloudStyle}>
+    <div className={`cloud ${loop ? '' : 'non-looping'}`} style={cloudStyle}>
       <div className="circle" style={circleStyle} />
       <div className="rectangle" style={rectStyle} />
       <div className="circle" style={{...circleStyle, left:`${rectWidth-circleRadius}px`}} />
