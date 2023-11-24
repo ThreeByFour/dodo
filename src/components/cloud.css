@@ -9,7 +9,7 @@
     background-color: transparent; /* Ensure that parent has no background */
   }
 
-  .cloud .non-looping {
+  .cloud.non-looping {
     animation-iteration-count: 1;
   }
   
