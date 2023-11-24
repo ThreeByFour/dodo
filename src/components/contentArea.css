@@ -11,11 +11,17 @@
     position: absolute;
     z-index: 10;
     align-self: center;
+    overflow: scroll;
   }
 
   * {
     font-family: 'Averta', sans-serif;
-    text-align: center
+    text-align: center;
+    font-size: 40px;
+  }
+
+  p {
+    margin-bottom: 10px;
   }
 
   .text-logo {
@@ -37,3 +43,22 @@
     /* Styles for your text content */
   }
   
+  .embed-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+  }
+
+  /* on mobile, embed to 100% width */
+  @media only screen and (max-width: 600px) {
+    .embed-container {
+      width: 100%;
+    }
+
+    * {
+      font-size: 16px;
+    }
+  }
